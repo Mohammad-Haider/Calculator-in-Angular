@@ -1,0 +1,100 @@
+.container {
+  border-style: solid;
+  border-radius: 4px red;
+  background-color: antiquewhite;
+  padding: 25px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.inputBox1 {
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.inputBox1:hover {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgb(244, 102, 77);
+  padding: 10px;
+}
+
+.labelClass {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+
+.inputBox2 {
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.inputBox2:hover {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgb(244, 102, 77);
+  padding: 10px;
+}
+
+.answerClass {
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.addClass {
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgb(75, 75, 247);
+  color: white;
+  margin-right: 3%;
+}
+
+.addClass:hover {
+  padding: 10px;
+  background-color: rgb(172, 69, 69);
+}
+
+.subtractClass {
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgb(75, 75, 247);
+  color: white;
+  margin-right: 3%;
+}
+
+.subtractClass:hover {
+  padding: 10px;
+  background-color: rgb(172, 69, 69);
+}
+
+.multiplyClass {
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgb(75, 75, 247);
+  color: white;
+  margin-right: 3%;
+}
+
+.multiplyClass:hover {
+  padding: 10px;
+  background-color: rgb(172, 69, 69);
+}
+
+.divideClass {
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgb(75, 75, 247);
+  color: white;
+  margin-right: 3%;
+}
+
+.divideClass:hover {
+  padding: 10px;
+  background-color: rgb(172, 69, 69);
+}

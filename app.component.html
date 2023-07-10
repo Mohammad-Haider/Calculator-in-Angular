@@ -1,0 +1,39 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <label class="labelClass" for="box1"
+    >First Value: <br /><input
+      type="number"
+      min="0"
+      #box1
+      class="inputBox1"
+      placeholder="write here"
+      (input)="getDataFromBox1(+box1.value)"
+  /></label>
+  <br />
+  <label class="labelClass" for="box2"
+    >Second Value: <br /><input
+      type="number"
+      min="0"
+      #box2
+      class="inputBox2"
+      placeholder="write here"
+      (input)="getDataFromBox2(+box2.value)"
+  /></label>
+  <br />
+  <button #add class="addClass" (click)="addNumbers()">Add</button>
+  <button #subtract class="subtractClass" (click)="subtractNumbers()">
+    Subtract
+  </button>
+  <button #multiply class="multiplyClass" (click)="multiplyNumbers()">
+    Multiply
+  </button>
+  <button #divide class="divideClass" (click)="divideNumbers()">Divide</button>
+  <br />
+  <label for="box3" class="labelClass"
+    >Answer: <br /><input
+      type="text"
+      #box3
+      class="answerClass"
+      value="{{ answer }}"
+  /></label>
+</div>
